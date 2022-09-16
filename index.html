@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <h1>SOCIAL MEDIA APP</h1>
+    <section class="container">
+        <SECTION class="left">
+            <form id="form">
+                <label for="form">Write your post here</label>
+                <br><br>
+                <textarea name="form" id="input" cols="30" rows="10"></textarea>
+                <p id="msg"></p>
+                <button type="submit">Post</button>
+            </form>
+        </SECTION>
+        <SECTION id="posts" class="left">
+            <h3>Your Posts Here</h3>
+            <div>
+                <p class="get-el">Your hello Post 1</p>
+                <span class='options'>
+                    <i onclick="deletePost(this)" class="fas fa-trash"></i>
+                    <i onclick="editPost(this)" class="fas fa-edit"></i>
+                </span>
+            </div>
+            <div>
+                <p class="get-el">Your hello post 2</p>
+                <span class="options">
+                    <i onclick="deletePost(this)" class="fas fa-trash"></i>
+                    <i onclick="editPost(this)" class="fas fa-edit"></i>
+                </span>
+            </div>
+        </SECTION>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

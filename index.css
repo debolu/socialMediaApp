@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(5, 121, 82);
+    color: whitesmoke;
+    text-align: center;
+    font: sans-serif;
+}
+
+.container {
+    display: inline-flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.container div {
+    margin: 20px;
+    text-align: left;
+}
+
+#posts div {
+    width: 250px;
+    text-align: right;
+}
+
+i {
+    cursor: pointer;
+}
+
+#msg {
+    color: red;
+}
+
+.options {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
